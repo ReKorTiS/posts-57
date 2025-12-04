@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Category;
 use App\Models\Country;
 use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -24,6 +25,7 @@ class DatabaseSeeder extends Seeder
         //     'password' => '1111',
         // ]);
 
-        Country::factory(193)->create();
+        // Country::factory(193)->create();
+        Category::factory(20)->create();
     }
 }

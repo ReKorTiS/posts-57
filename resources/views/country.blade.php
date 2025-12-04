@@ -19,7 +19,7 @@
                             <td>{{ $country->id }}</td>
                             <td>{{ $country->name }}</td>
                             <td>{{ $country->top }}</td>
-                            <td>delete</td>
+                            <td><button class="bg-red-500 px-1 hover:text-white hover:bg-black">Delete</button></td>
                         </tr>
 
                     @endforeach
